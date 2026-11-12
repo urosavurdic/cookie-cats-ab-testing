@@ -1,8 +1,8 @@
 # Cookie Cats A/B test
 
 Does moving the first progression gate in a mobile game from level 30 to level
-40 keep players around longer? Analysis of 90,189 players, run twice — once with
-frequentist hypothesis tests and once with a Bayesian model — because the two
+40 keep players around longer? Analysis of 90,189 players, run twice (once with
+frequentist hypothesis tests and once with a Bayesian model) because the two
 answer subtly different questions.
 
 **Conclusion: no. Ship gate_30.** Moving the gate to level 40 does not improve
@@ -20,8 +20,8 @@ retention and probably reduces it.
 
 The game-rounds result is the interesting one, and the reason both methods are
 here. With 90k players the Mann-Whitney test detects a difference that is real
-but far too small to act on — significance without practical importance. The
-Bayesian view states the thing a product decision actually needs: the
+but far too small to act on. The Bayesian view states what a product decision
+needs: the
 probability that the new gate is better at all, which is 3.66% at one day and
 essentially zero at seven.
 
@@ -52,4 +52,4 @@ analysis without running anything.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE).
